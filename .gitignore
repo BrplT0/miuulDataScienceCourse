@@ -1,0 +1,61 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.db
+*.sqlite
+*.sqlite3
+data/
+datasets/
+raw_data/
+processed_data/
+*.parquet
+*.feather
+*.hdf5
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Outputs
+outputs/
+results/
+models/
+checkpoints/
+*.pkl
+*.pickle
+*.joblib
